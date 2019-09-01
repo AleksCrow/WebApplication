@@ -9,5 +9,11 @@
         <module name="WebApplication" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="12">
+      <module name="WebApplication" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="DEPRECATION" value="false" />
   </component>
 </project>
